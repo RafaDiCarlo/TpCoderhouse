@@ -1,0 +1,128 @@
+/*palette: https://www.color-hex.com/color-palette/1010485*/
+*{
+    background-color: #fff4c2;
+    scroll-behavior: smooth;
+}
+
+header{
+    color: #231c1c;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    border-radius: 50%;
+    
+}
+
+img:hover {
+    transform: scale(1.1); /* Aumentar el tamaño del elemento al pasar el cursor */
+    transition: transform 0.3s; /* Agregar una transición suave */
+  }
+
+nav{
+    position: sticky;
+    color: #fff4c2;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a:link{
+    color: #06548f;
+    text-decoration: none;
+}
+
+
+
+a:visited{
+    color: #231c1c;
+    text-decoration: none;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: inline-block;
+    border: #f0ae39 dotted ;
+    color: #231c1c;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 50%;
+    margin: 5px;
+}
+
+main:hover{
+    transform: scale(1.1); /* Aumentar el tamaño del elemento al pasar el cursor */
+    transition: transform 1s; /* Agregar una transición suave */
+    z-index: 10;
+}
+
+main h1{
+    color: #9d1f0a;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+
+
+aside{
+    /*keep aside in top of the page */
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    border: #f0ae39 dotted ;
+    color: #06548f;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
+    list-style: none;
+}
+
+aside:hover{
+    transform: scale(1.1); /* Aumentar el tamaño del elemento al pasar el cursor */
+    transition: transform 1s; /* Agregar una transición suave */
+    z-index: 10;
+}
+
+ul li:hover{
+    transform: scale(1.1); /* Aumentar el tamaño del elemento al pasar el cursor */
+    transition: transform 0.3s; /* Agregar una transición suave */
+    z-index: 10;
+}
+
+#nombre, #email{
+    display: inline-block;
+    width: 25%;
+}
+
+input #mensaje{
+    display: inline-block;
+    height: 500px;
+}
+
+footer{
+    color: #231c1c;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+}
